@@ -1,0 +1,97 @@
+body {
+	font: 20px/20px arial, sans-serif;
+	color: gray;
+	text-transform: capitalize;
+	background-color: #512300;
+	margin: 0;
+}
+.pala {
+	
+}
+h1 {
+	color: black;
+	padding: 50px 30px;
+	background-color: skyblue;
+	margin: 0;
+	border-bottom-color: forestgreen;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+}
+.pala img {
+	margin-top: -60px;
+	margin-right: 50px;
+	float: right;
+}
+.pala h3 {
+	padding: 5px 30px;
+}
+.pala ul {
+	padding-left: 50px;
+	margin-top: -20px;
+}
+.pala ul li a {
+	text-decoration: none;
+	color: gray;
+}
+.pala ul li a:hover {
+	background-color: lightblue;
+	color: white;
+}
+.isi {
+	
+	background-color: #471e00;
+	padding-top: 5px;
+	margin: 0;
+}
+.nama {
+	padding-left: 30px;
+	padding-bottom: 15px;
+}
+.medsos {
+	background-color: #3f1800;
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+.main {
+	background-color: #331600;
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#krft {
+	padding-left: 35px;
+}
+.ska {
+	background-color: #261000;
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+.ska p a {
+	color: #261000;
+	text-decoration: none;
+}
+.ska p a:hover {
+	color: forestgreen;
+	background-color: white;
+}
+img {
+ margin-top: 15px;
+}
+button {
+	color: grey;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
